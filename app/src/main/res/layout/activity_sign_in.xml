@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sign_in_Activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:nestedScrollingEnabled="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/cuplogo"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="8dp"
+                    app:srcCompat="@drawable/clipart"
+                    app:tint="@color/tintlogocolor"
+                    android:contentDescription="@string/cuplogo" />
+
+                <TextView
+                    android:id="@+id/cafe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/cafe"
+                    android:textColor="@color/tintlogocolor"
+                    android:textSize="48sp" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/addedviewback"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:minHeight="48dp"
+                    android:padding="10dp"
+                    tools:ignore="Autofill" />
+
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/addedviewback"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp"
+                    android:padding="10dp"
+                    tools:ignore="Autofill" />
+
+                <Button
+                    android:id="@+id/sign_in"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="@color/endcolorgradient"
+                    android:text="@string/sign_in"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="50dp"
+                        android:layout_height="2dp"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="5dp"
+                        android:background="@color/startcolorgradient" />
+
+                    <TextView
+                        android:id="@+id/or_with"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/or_with" />
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="50dp"
+                        android:layout_height="2dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="5dp"
+                        android:background="@color/startcolorgradient" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/facebook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/fb_btn"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/facebook"
+                        android:textColor="#FAFAFA" />
+
+                    <TextView
+                        android:id="@+id/google"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/google"
+                        android:drawablePadding="40dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/google"
+                        android:textColor="#1B5E20" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/want_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/want_account"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

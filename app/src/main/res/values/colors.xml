@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundopacity">#AB363535</color>
+    <color name="startcolorgradient">#443C20</color>
+    <color name="endcolorgradient" >#e8a564</color>
+    <color name="fbcolor"        >#3b5998</color>
+    <color name="tintlogocolor">#AC7A4A</color>
+    <color name="goooglecolor">#C3463B</color>
+    <color name="colorPrimary" >#f4d300</color>
+    <color name="colorPrimaryDark">#D8BB03</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="red">#CA0000</color>
+    <color name="back">#000000</color>
+    <color name="yellow">#f4d300</color>
+   <color name="lightYellow">#BFAE16</color>
+    <color name="orderButtonBackground">#E8E8E8 </color>
+   <color name="gradientEndColor">#FDE02F</color>
+    <color name="etStrokeColor">#A89202</color>
+</resources>
